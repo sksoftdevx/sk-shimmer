@@ -1,0 +1,36 @@
+plugins {
+    id 'com.android.library'
+    id 'maven-publish'
+}
+
+group = 'com.github.sksoftdevx.sk-shimmer'
+version = '1.0.0'
+
+android {
+    namespace 'com.sksoftdev.skshimmer'
+    compileSdk 35
+    defaultConfig {
+        minSdk 21
+        consumerProguardFiles 'consumer-rules.pro'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+    publishing {
+        singleVariant('release') { withSourcesJar() }
+    }
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+                groupId = 'com.github.sksoftdevx.sk-shimmer'
+                artifactId = 'skshimmer'
+                version = '1.0.0'
+            }
+        }
+    }
+}

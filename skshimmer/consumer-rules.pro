@@ -1,0 +1,1 @@
+# SK Shimmer consumer rules\n

@@ -1,0 +1,1 @@
+# Security Policy\n\nPlease report security issues privately to the repository owner.\n

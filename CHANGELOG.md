@@ -1,0 +1,1 @@
+# Changelog\n\n## 1.0.0\n- Initial Java library and sample app structure.\n

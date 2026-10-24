@@ -1,0 +1,1 @@
+# Contributing\n\nPlease open an issue before substantial changes. Test the library and sample app in Android Studio before submitting a pull request.\n

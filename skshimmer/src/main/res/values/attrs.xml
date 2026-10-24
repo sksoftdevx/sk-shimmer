@@ -1,0 +1,8 @@
+<resources>
+    <declare-styleable name="SKShimmerLayout">
+        <attr name="skShimmerBaseColor" format="color" />
+        <attr name="skShimmerHighlightColor" format="color" />
+        <attr name="skShimmerDuration" format="integer" />
+        <attr name="skShimmerAutoStart" format="boolean" />
+    </declare-styleable>
+</resources>
